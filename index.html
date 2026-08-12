@@ -89,8 +89,17 @@
         </div>
         <hr>
         <p class="fs-5 text-end">Total: <strong id="total-carrinho">R$0,00</strong></p>
+        <p class="text-end">
+    Créditos disponíveis:
+    <strong id="creditos-carrinho">R$800,00</strong>
+</p>
+
+<button id="finalizar-pedido" class="btn btn-finalizar-pedido w-100">
+    Finalizar pedido
+</button>
       </div>
     </div>
+
 
     <div
       id="carouselExampleCaptions"
@@ -288,7 +297,7 @@
     <div class="container row mx-auto" id="grid-produtos-bombando">
       <div class="col-12 col-md-6 col-xxl-4 pb-4 produto-card" data-price="71.90" data-category="shirts">
         <div class="card">
-          <img class="d-block d-md-none" src="./assets/Mobile/produtosBombandoMobile/camiseaConfortopng.png"
+          <img class="d-block d-md-none" src="./assets/Mobile/produtosBombandoMobile/camisaConforto.png"
           alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
         <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/produtosBombando/camisetaConforto.png"
           alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
@@ -442,7 +451,11 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
           </div>
           <div class="modal-body">
-            <img src="./assets/Desktop/produtosBombando/camisaConforto.png" class="w-100 img-fluid mb-3" alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
+            <picture>
+              <source media="(max-width: 767px)" srcset="./assets/Mobile/produtosBombandoMobile/camisaConforto.png">
+              <source media="(max-width: 1199px)" srcset="./assets/Tablet/produtosBombando/camisetaConforto.png">
+              <img src="./assets/Desktop/produtosBombandoDesktop/camisaConforto.png" class="w-100 img-fluid mb-3" alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
+            </picture>
             <p>Tecido macio, caimento moderno e conforto para o dia a dia. Ideal para qualquer ocasião.</p>
             <p class="mb-0">
               <span class="text-decoration-line-through text-muted me-2">R$89,90</span>
@@ -464,7 +477,11 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
           </div>
           <div class="modal-body">
-            <img src="./assets/Desktop/produtosBombando/calcaAlfaiataria.png" class="w-100 img-fluid mb-3" alt="Modelo feminina vestindo blusa marrom, calça bege, par de sapatos altos na cor branca, cordão e pulseira, em um ambiente aberto com chão de terra e matos secos.">
+            <picture>
+              <source media="(max-width: 767px)" srcset="./assets/Mobile/produtosBombandoMobile/calcaAlfaiataria.png">
+              <source media="(max-width: 1199px)" srcset="./assets/Tablet/produtosBombando/calcaAlfaiataria.png">
+              <img src="./assets/Desktop/produtosBombandoDesktop/calcaAlfaiataria.png" class="w-100 img-fluid mb-3" alt="Modelo feminina vestindo blusa marrom, calça bege, par de sapatos altos na cor branca, cordão e pulseira, em um ambiente aberto com chão de terra e matos secos.">
+            </picture>
             <p>Elegância e sofisticação em uma peça versátil, perfeita para compor looks casuais ou sociais.</p>
             <p class="mb-0">
               <span class="text-decoration-line-through text-muted me-2">R$179,90</span>
@@ -486,7 +503,11 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
           </div>
           <div class="modal-body">
-            <img src="./assets/Desktop/produtosBombando/tenisOToole.png" class="w-100 img-fluid mb-3" alt="Foco nos pés de modelo usando par de tênis e meia na cor branca, e calça na cor preta, pisando em uma poça de água.">
+            <picture>
+              <source media="(max-width: 767px)" srcset="./assets/Mobile/produtosBombandoMobile/tenisOToole.png">
+              <source media="(max-width: 1199px)" srcset="./assets/Tablet/produtosBombando/tenisOToole.png">
+              <img src="./assets/Desktop/produtosBombandoDesktop/tennisOToole.png" class="w-100 img-fluid mb-3" alt="Foco nos pés de modelo usando par de tênis e meia na cor branca, e calça na cor preta, pisando em uma poça de água.">
+            </picture>
             <p>Tênis com design moderno, leve e confortável para acompanhar sua rotina com estilo e praticidade.</p>
             <p class="mb-0"><strong class="fs-5">R$249,90</strong></p>
           </div>
@@ -505,7 +526,11 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
           </div>
           <div class="modal-body">
-            <img src="./assets/Desktop/produtosBombando/jaquetaJeans.png" class="w-100 img-fluid mb-3" alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
+            <picture>
+              <source media="(max-width: 767px)" srcset="./assets/Mobile/produtosBombandoMobile/jaquetaJeans.png">
+              <source media="(max-width: 1199px)" srcset="./assets/Tablet/produtosBombando/jaquetaJeans.png">
+              <img src="./assets/Desktop/produtosBombandoDesktop/jaquetaJeans.png" class="w-100 img-fluid mb-3" alt="Modelo masculino vestindo toca e calça na cor preta, jaqueta jeans azul, blusa branca e cordão dourado, em um fundo branco.">
+            </picture>
             <p>A mais Clássica, combina com qualquer estilo. Confeccionada em jeans de ótima qualidade.</p>
             <p class="mb-0">
               <span class="text-decoration-line-through text-muted me-2">R$229,99</span>
@@ -527,7 +552,11 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
           </div>
           <div class="modal-body">
-            <img src="./assets/Desktop/produtosBombando/oculosRedondo.png" class="w-100 img-fluid mb-3" alt="Modelo masculino com blusa branca e um par de óculos de lentes transparentes arredondadas, utilizando um notebook, com um cachorro poodle branco no seu colo, e em um fundo branco.">
+            <picture>
+              <source media="(max-width: 767px)" srcset="./assets/Mobile/produtosBombandoMobile/oculosRendondo.png">
+              <source media="(max-width: 1199px)" srcset="./assets/Tablet/produtosBombando/oculosRedondo.png">
+              <img src="./assets/Desktop/produtosBombandoDesktop/oculosRedondo.png" class="w-100 img-fluid mb-3" alt="Modelo masculino com blusa branca e um par de óculos de lentes transparentes arredondadas, utilizando um notebook, com um cachorro poodle branco no seu colo, e em um fundo branco.">
+            </picture>
             <p>Um clássico reinventado. Proteção UV e um visual cheio de personalidade.</p>
             <p class="mb-0"><strong class="fs-5">R$120,00</strong></p>
           </div>
@@ -546,7 +575,11 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
           </div>
           <div class="modal-body">
-            <img src="./assets/Desktop/produtosBombando/bolsaCoringa.png" class="w-100 img-fluid mb-3" alt="Cintura, pernas e pés de modelo feminina vestindo sobretudo de cor predominante bege com detalhes em tom vermelho e escuro, com calça e par de sapatos na cor preta, segurando bolsa na cor bege, com fundo de prédio.">
+            <picture>
+              <source media="(max-width: 767px)" srcset="./assets/Mobile/produtosBombandoMobile/bolsaCoringa.png">
+              <source media="(max-width: 1199px)" srcset="./assets/Tablet/produtosBombando/bolsaCoringa.png">
+              <img src="./assets/Desktop/produtosBombandoDesktop/bolsaCoringa.png" class="w-100 img-fluid mb-3" alt="Cintura, pernas e pés de modelo feminina vestindo sobretudo de cor predominante bege com detalhes em tom vermelho e escuro, com calça e par de sapatos na cor preta, segurando bolsa na cor bege, com fundo de prédio.">
+            </picture>
             <p>Compacta, elegante e prática. O acessório ideal para combinar com qualquer look.</p>
             <p class="mb-0"><strong class="fs-5">R$159,90</strong></p>
           </div>

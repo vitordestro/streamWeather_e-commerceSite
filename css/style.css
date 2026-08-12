@@ -60,6 +60,32 @@ body {
     border-color: #1f1f1f;
 }
 
+.btn-finalizar-pedido {
+    border: 2px solid #25D366 !important;
+    color: #25D366 !important;
+    background-color: transparent !important;
+    font-weight: 600;
+    opacity: 1 !important;
+}
+
+.btn-finalizar-pedido:hover {
+    background-color: #25D366 !important;
+    color: #fff !important;
+}
+
+.btn-finalizar-pedido {
+    border: 2px solid #25D366 !important;
+    color: #25D366 !important;
+    background-color: transparent !important;
+    font-weight: 600;
+    opacity: 1 !important;
+}
+
+.btn-finalizar-pedido:hover {
+    background-color: #25D366 !important;
+    color: white !important;
+}
+
 .produto-acoes {
     width: 100%;
 }
