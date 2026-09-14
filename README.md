@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-    <a href="PROJECT_URL">🌐 Acessar o projeto</a>
+    <a href="https://vitordestro.github.io/streamWeather_e-commerceSite/">🌐 Acessar o projeto</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
